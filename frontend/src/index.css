@@ -208,9 +208,7 @@ img.large {
   box-shadow: -1px 6px 10px #dbdbdb;
   transition: 0.3s;
 }
-.cards:hover {
-  transform: scale(1.019);
-}
+
 .cards-body {
   padding: 1rem;
 }
