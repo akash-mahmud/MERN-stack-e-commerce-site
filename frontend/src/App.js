@@ -76,8 +76,8 @@ function App() {
               )}
             ></Route>
           </div>
-          <div className="user_prfl_section">
-            <Link to="/cart">
+          <div className="user_prfl_section cart_tag  responsive_nav">
+            <Link to="/cart" className="nav-item">
               Cart
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ function App() {
               )}
             </Link>
             {userInfo ? (
-              <div className="dropdowns">
+              <div className="dropdowns nav-item">
                 <Link to="#">
                   {userInfo.name} <i className="fa fa-caret-down"></i>{" "}
                 </Link>
@@ -186,7 +186,7 @@ function App() {
             )}
           </ul>
         </aside>
-        <main>
+        <main className="responsive">
           <Route path="/seller/:id" component={SellerScreen}></Route>
           <Route path="/cart/:id?" component={CartScreen}></Route>
           <Route path="/product/:id" component={ProductScreen} exact></Route>

@@ -671,6 +671,124 @@ ul::-webkit-scrollbar {
   font-family: sans-serif;
   margin-left: 20px;
 }
-.user_review{
+.user_review {
   margin-left: 50px;
+}
+
+@media screen and (max-width: 950px) and (min-width: 788px) {
+  .dropdowns {
+    color: black;
+    /* margin-left: 100px; */
+    order: 2;
+  }
+  .dropdowns a {
+    color: black;
+  }
+  .cart_tag {
+    padding-left: 150px;
+    margin-left: 120px;
+  }
+  .cart_tag a {
+    color: black;
+    margin-right: 20px;
+    /* padding-left: 150px; */
+  }
+  .dropdowns {
+    margin-right: 0;
+    margin-top: 20px;
+    background-color: #203040;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+  .dropdowns a {
+    color: white;
+  }
+  .dropdowns-content {
+    right: 0px;
+    min-width: 0;
+    top: 45px;
+  }
+  .dropdowns-content a {
+    color: white;
+  }
+  .responsive {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 787px) and (min-width: 509px) {
+  .searchs {
+    position: relative;
+    top: 47px;
+    left: 350px;
+  }
+  .searchs button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-right: none;
+    margin-right: 0.5rem;
+    background-color: #e9ecef;
+  }
+  .searchs button .fa {
+    color: gray;
+  }
+  .searchs input {
+    width: 150px;
+    right: 40px;
+    position: absolute;
+  }
+  .searchs input ::placeholder {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 200px) {
+  .searchs {
+    width: 0;
+    display: none;
+  }
+  .responsive_nav {
+    margin-bottom: 50px;
+  }
+
+  .responsive_nav a {
+    color: black;
+    padding: 3rem 0 1rem 6rem;
+    z-index: -1;
+    display: inline-block;
+  }
+  .responsive_nav .dropdowns-content a {
+    color: white;
+    padding-top: 0px;
+  }
+  .dropdowns-content {
+    top: 45px;
+  }
+
+  .responsive {
+    margin-top: 50px;
+  }
+
+  .carousel-root {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) and (min-width: 120px) {
+  .searchs {
+    width: 0;
+    display: none;
+  }
+  .responsive_nav {
+    margin-bottom: 50px;
+  }
+
+  .responsive_nav a {
+    color: black;
+    padding: 0;
+    z-index: -1;
+    display: inline-block;
+  }
+  .responsive_nav .dropdowns-content a {
+    color: white;
+    padding-top: 0px;
+  }
 }
